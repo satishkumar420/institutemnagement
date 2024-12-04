@@ -1,0 +1,747 @@
+/* signup and login css */
+
+.signup-wrap
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f7fb;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.signup-box{
+    width: 80%;
+    height: 80vh;
+    background-color:rgb(240, 238, 238);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.signup-left{
+  width: 50%;
+  background-color: rgb(247, 181, 181);
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.left-heading{
+  color: white;
+  font-size: 30px;
+}
+.left-pera{
+   color: white;
+   font-size: 18px;
+}
+.signup-right{
+    width: 50%;
+    padding: 10px;
+}
+.signup-right h1{
+     text-align: center;
+     margin-top: 80px;
+}
+.signup-form{
+    margin-top:10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup-form input{
+    border: 2px solid rgb(187, 184, 184);
+    padding:13px;
+    border-radius: 10px;
+    width: 60%;
+}
+select{
+    border: 2px solid rgb(187, 184, 184);
+    padding:13px;
+    border-radius: 10px;
+    width: 60%; 
+}
+.submit-btn{
+    background-color:#F65164;
+    width:60% ;
+    padding:15px ;
+   border-radius:10px ;
+   font-size:16px;
+   cursor: pointer;
+   font-size: 22px;
+}
+.your-logo{
+    height: 100px; 
+}
+.link{
+    color: #7033FF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.loader{
+    width: 20px;
+    
+}
+
+
+/* dashboard main */
+.dashboard-main{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to right ,pink,aqua,rgb(205, 205, 82));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-container{
+    width: 90%;
+    height: 90vh;
+    background-color: rgb(229, 227, 227);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+} 
+.nav-container{
+    width: 20%;
+    height: 90vh;
+    background-color: #383739;
+    padding: 10px;
+}
+.main-container{
+     width: 80%;
+     height: 90vh;
+     background-color: rgb(243, 242, 242);
+}
+.main-bar{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(150, 206, 206);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.logo-container{
+    width: 72px;
+    height: 72px;
+    background-color:white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main-logo{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    border-radius:50%;
+}
+.logout{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:20px ;
+}
+.main-heading{
+  font-size:18px;
+}
+.logout-btn{
+   background-color: #F65164;
+   color: white;
+   width: 90px;
+   border-radius:10px ;
+   cursor: pointer;
+   padding: 5px;
+   font-size: 16px;
+}
+.brand-container{
+    height:100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color:rgb(1, 11, 11);
+    border-radius: 15px;
+}
+.brand-name{
+    color: white;
+    font-size: 20px;
+}
+.brand-slogan{
+  text-align: justify;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* menu BAr */
+.menu-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+    text-align:center;
+}
+.menu-link{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    width:80%;
+    border-radius: 1px;
+    cursor:pointer  ;
+}
+.menu-active-link{
+    margin-top: 10px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    width:80%;
+    border-radius: 10px;
+    cursor:pointer  ;
+    background-color: rgb(171, 237, 237);
+}
+.menu-link:hover{
+    background-color: rgb(171, 237, 237);
+    color: black;
+    transition: .3s;
+}
+.contact-us{
+    text-align: center;
+    margin-top:90px;
+    color: white;
+    font-size: 19px;
+}
+
+/* outlet bar */
+.outlet-bar{
+    margin-top: 20px;
+    margin-left: 10px;
+ 
+}
+
+
+/* courses */
+.course-wrapper{
+    width: 100%;
+    height: 75vh;
+}
+.course-wrapr{
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow:auto;
+}
+.course-box{
+width: 22%;
+height:33vh;
+background-color:#9b999d;
+overflow: hidden;
+border-radius: 10px;
+cursor: pointer;
+object-fit: cover;
+}
+.course-box:hover{
+   box-shadow: -2px 3.5px  rgb(40, 39, 39);
+   transition: .3s;
+}
+.course-thumb{
+    width:100% ;
+    height:20vh;
+}
+.heading{
+    margin-top:3px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+}
+.paragraph{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+}
+
+/* course details */
+.course-detail-main-wrapper{
+    background-color: rgb(146, 223, 146);
+    padding: 4px;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    background-color:#eeee;
+    border-radius: 10px;
+}
+.course-detail-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 17px;
+    background-color: #ffff;
+    height: 33vh;
+    width: 100%;
+}
+.main1{
+    text-align: center;
+    width: 40%;
+    overflow: auto;
+}
+.course-logo{
+    width: 30%;
+    height:30vh ;
+    border-radius: 10px;
+}
+.main3{
+    text-align: center;
+    width: 35%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.student-list-container{
+    width: 100%;
+    height: 33vh;
+    background-color:#e1d4d6;
+    border-radius: 10px;
+    overflow: auto;
+}
+.course-description{
+    height:20vh ;
+    overflow:auto ;
+    width: 100%;
+    margin-right: 100px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.student-row .bring{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+th{
+    font-size: 20px;
+}
+th,td{
+    text-align: left;
+    padding: 9px;
+    text-transform: capitalize;
+}
+.student-row:hover{
+    background-color:#eee;
+    transition: .3s;
+    cursor: pointer;
+}
+.best{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.primary-btn{
+   background-color: #7033FF;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.secondary-btn{
+    background-color: #F65164;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* ---------------student detail */
+.student-detail-main-wrapper{
+     width: 100%;
+     height: 75vh;
+}
+.student-detail-wrapper{
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+.fee-detail-wrapper{
+    width: 100%;
+    height:34vh;
+    background-color: rgb(213, 202, 204);
+    overflow: auto;
+    border-radius: 10px;
+}
+.student-detail-header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh; 
+    border-radius: 10px;
+}
+.student-detail-header .fullname{
+    margin-left: 80px;
+    text-transform: capitalize;
+}
+.sd-btn-container{
+ display: flex; 
+ gap: 10px;
+ margin-right: 20px;   
+}
+.ad-detail{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    overflow: auto;
+    text-transform: capitalize
+}
+.ad-detail img{
+  width: 200px;
+  height: 170px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.fee-box{
+   
+    width: 100%;
+    height: 75vh
+}
+.fee-box h1{
+    text-align: center;
+    margin-top: 70px;
+    text-transform: capitalize;
+    
+}
+.fee-box-wrap{
+  margin-top:80px;
+  align-items: center;
+}
+
+/*--------- home css------- */
+
+.home-wrapper{
+    width: 100%;
+    height:80vh;
+    border-radius: 15px;
+}
+.home-main-wrap{
+    width:95%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right,rgb(129, 214, 129),rgb(122, 227, 227),rgb(228, 228, 129)) ;
+    gap: 10px;
+   border-radius: 10px;
+}
+
+.box{
+    width: 30%;
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.box1{
+    background: linear-gradient(to right, #2490cf ,#b7a0ec);
+}
+.box2{
+    background: linear-gradient(to right, #F65164 ,#b7a0ec);
+}
+.box3{
+    background: linear-gradient(to right, #c3dfee ,#b7a0ec);
+}
+.box p{
+    font-size:1.8rem;
+}
+.list-container{
+    padding: 13px;
+    margin-top: 10px;
+    width: 100%;
+    height: 48vh ;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.over{
+    position: sticky;
+    top: 0;
+    background-color: #f0e8e9;
+}
+.table-container{
+    width: 49%;
+    height: 41vh;
+    background-color:rgb(207, 169, 169);
+    border-radius: 10px;
+    overflow: auto;
+    scroll-behavior:smooth;
+}
+.pera{
+    font-size:12px;
+}
+
+
+
+/* media quey */
+
+
+
+@media (max-width: 1080px) { 
+    .nav-container{
+        width: 12%;
+        height: 90vh;
+        background-color: #383739; 
+    }
+    .brand-container{
+        height:100px;
+        flex-direction: column;
+        align-items: center;
+    }
+   .brand-container .logen{
+        width :65px;
+   }
+   .hide-text{
+    display: none;
+   }
+   .menu-link,
+   .menu-active-link{
+    font-size: 13px;
+    padding: 2.7px;
+   }
+   .contact-us{
+    font-size: 8px;
+    left: 1px;
+   }
+   .main-container{
+    width: 100%;
+   }
+   .main-bar{
+      width: 100%;
+   }
+}
+
+@media (max-width:800px) {
+    .nav-container{
+        width: 20%;
+        height: 90vh; 
+    }
+   .brand-container .logen{
+    margin-top: 10px;
+        width :70px;
+   }
+   .hide-text{
+    display: none;
+   }
+   .menu-link,
+   .menu-active-link{
+    font-size: 13px;
+    padding: 2.7px;
+   }
+   .contact-us{
+    display:none;
+   }
+   .main-container{
+    width: 80%;
+   }
+   .main-bar{
+      width: 100%;
+   }
+   .home-wrapper{
+    width: 100%;
+   }
+   .box{
+    width: 30%;
+    height: 15vh;
+   }
+   .box h2 {
+    font-size: 15px;
+   }
+   .box p{
+    font-size: 12px;
+   }
+   .list-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    gap: 6px;
+   }
+   .table-container{
+    width: 100%;
+    height:23vh;
+   }
+   .course-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   }
+   .course-box{
+    width: 47%;
+    height:32vh;
+   }
+   .signup-box{
+    height: 60vh;
+   }
+   .signup-left{
+    width: 30vh;
+   }
+   .signup-left img{
+    height: 100px;
+   }
+   .signup-left p{
+    display: none;
+   }
+   .signup-left h1{
+    color: rgb(51, 43, 43);
+    text-align: center;
+   }
+   .signup-right{
+    width: 40vh;
+    margin-left: 20px;
+   }
+   .signup-right h1{
+    font-size: 18px;
+    margin-top: 10px;
+   }
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+}
+.signup-form .submit-btn{
+font-size: 12px;
+padding: 10px;
+}
+.graphic{
+    height: 70px;
+}
+
+.main1{
+    width: 40%;
+   }
+
+}
+
+@media (max-width:490px){
+   .signup-box{
+    height: 80vh;
+    width:90%;
+    display: flex;
+    flex-direction:column;
+   }
+   .signup-left{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 14vh;
+   }
+   .signup-left img{
+    height: 50px;
+    padding: 2px;
+    border-radius:20px;
+   }
+   .signup-left p{
+    display: none;
+   }
+   .signup-right{
+    margin-left: 2px;
+    width: 100%;
+    height:65vh;
+   }
+   .signup-form input{
+    width: 80%;
+   }
+   .nav-container{
+    width:23%;
+    height: 90vh; 
+}
+.brand-container{
+display:none;
+}
+.menu-link,
+.menu-active-link{
+width: 100%;
+}
+.home-main-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+width: 100%;
+height: 15vh;
+}
+.box h2 {
+font-size: 15px;
+}
+.box p{
+font-size: 12px;
+}
+.list-container{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 50vh;
+gap: 6px;
+}
+.table-container{
+width: 100%;
+height:23vh;
+}
+.course-wrapr{
+    padding: 10px;
+    align-items: center;
+}
+.course-box{
+width:90%;
+height: 37vh;
+} 
+.course-logo{
+    height: 10vh;
+}
+.main1 p{
+  display: none;
+}
+.main1 h1{
+    margin-top:120px;
+    font-size: 20px;
+}
+.main3{
+    height: 14vh;
+}
+.main3 h3{
+    display: none;
+}
+.course-description{
+ display:none;
+}
+.best{
+ display: flex;
+ flex-direction: column;
+}
+}
