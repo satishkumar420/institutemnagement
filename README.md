@@ -1,2 +1,2 @@
-# institutemnagement
-full instittute mnagement 
+# instituteManagement
+full instittute management 
